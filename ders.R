@@ -1,0 +1,7 @@
+proj_get()
+proj_sitrep()
+usethis::proj_sitrep()
+install.packages('usethis')
+library('lintr')
+lint("proje.R")
+print("helloworld")
